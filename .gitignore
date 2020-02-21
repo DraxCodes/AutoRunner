@@ -353,4 +353,4 @@ MigrationBackup/
 .ionide/
 
 # User ignored
-vs-code/
+.vscode/
