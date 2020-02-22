@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoRunner.Plugins;
+using System;
 
 namespace AutoRunner.UI
 {
@@ -6,7 +7,8 @@ namespace AutoRunner.UI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var loader = new PluginLoader();
+            loader.Load();
         }
     }
 }
